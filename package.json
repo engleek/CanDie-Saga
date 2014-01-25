@@ -1,0 +1,21 @@
+{
+  "name": "Eek",
+  "description": "Collaborative adventure book.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engleek/Eek"
+  },
+  "author": "Engleek",
+  "dependencies": {
+    "wasabi": "~0.2.0",
+    "ws": "~0.4.31",
+    "express": "~3.4.8"
+  },
+  "devDependencies": {
+    "tiny-lr": "0.0.5",
+    "gulp-hogan": "0.0.1",
+    "gulp-util": "~2.2.12",
+    "gulp": "~3.5.0"
+  }
+}

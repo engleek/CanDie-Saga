@@ -1,0 +1,9 @@
+module.exports = {
+
+  // Hall d'entrée
+  0: "<p>Vous êtes arrivé dans le hall d'entrée du donjon. Vous ne savez pas encore vraiment pourquoi vous êtes là, et surtout avec cette équipe loufoque. Mais une chose est sûre, pas question de moisir ici.</p><p>Sur votre droite, vous constatez deux chemins. L'un semble plutôt descendre vers les profondeurs, l'autre continue à droite.</p> <p>Vous vous arrêtez déjà pour choisir d'une direction à prendre. Ne souhaitant pas attendre, <pseudo> prends la décision d'aller vers la <select class='choice'><option>gauche</option><option>droite</option></select>.</p>",
+  
+  1: "<p>Un peu bruyamment, vous arrivez dans la nouvelle salle. Les murs sont couverts de motifs rougeoyant et la salle semble être richement décorée. Vous restez sans voix et êtes persuadé de trouver des trésors oubliés. Rien de tout cela cependant. Mais, au centre de la pièce, on peut y voir une ancienne colonne grecque de petite taille. Sur cette dernière est posé, un téléphone d'or!</p><p><perso> s'avance de quelque pas, et le précieux objet se met à sonner.</p><p>Ni une ni deux, vous foncez vers le téléphone et vous <select class='choice'><option>décrochez le combiné</option><option>le massacrez à gros coup de poing</option><option>débranchez la prise (si ça existe dans un donjon)</option></select></p>",
+  
+  2: "<p>Quel étrange endroit!</p><p>C'est visiblement une chambre froide, mais il y a pourtant un blizzard terrible. Vous avancez courageusement à travers la neige. Lorsque la tempête se calme, vous constatez qu'il y a des lutins qui vous attendent. Ils vous expliquent que vous êtes à la fabrique de cadeaux du père Noël. <select class='choice'><option>Parler aux elfes</option><option>tenter de looter tout ça</option></select>.</p>"
+};

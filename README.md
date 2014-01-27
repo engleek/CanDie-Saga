@@ -1,4 +1,4 @@
-CanDie Crush
+CanDie Saga
 ============
 
 Collaborative adventure book.

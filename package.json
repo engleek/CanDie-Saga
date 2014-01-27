@@ -1,21 +1,20 @@
 {
-  "name": "Eek",
+  "name": "CanDie Saga",
   "description": "Collaborative adventure book.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/engleek/Eek"
+    "url": "https://github.com/engleek/CanDie-Saga"
   },
-  "author": "Engleek",
   "dependencies": {
-    "wasabi": "~0.2.0",
     "ws": "~0.4.31",
     "express": "~3.4.8"
   },
   "devDependencies": {
     "tiny-lr": "0.0.5",
-    "gulp-hogan": "0.0.1",
     "gulp-util": "~2.2.12",
-    "gulp": "~3.5.0"
+    "gulp": "~3.5.0",
+    "gulp-browserify": "~0.3.4",
+    "hbsfy": "~1.3.1"
   }
 }

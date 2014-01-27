@@ -1,4 +1,4 @@
-Eek
-===
+CanDie Crush
+============
 
 Collaborative adventure book.

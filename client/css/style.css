@@ -1,0 +1,150 @@
+body {
+  margin: 0 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: 'Special Elite';
+  color: #444;
+}
+
+#message {
+  padding-left: 30px;
+  font-size: 60%;
+}
+
+.characters {
+  position: fixed;
+  width: 100em;
+  margin: 10px auto 50px auto;
+  transition: .4s all ease-out;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.characters > div {
+  display: inline-block;
+}
+
+.characters.aside {
+  font-size: 74%;
+  width: 22em;
+  right: 5em;
+  top: 20px;
+} 
+
+.character {
+  width: 220px;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.character.small {
+  width: 170px;
+}
+
+.character ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.character .charname {
+  width: 160px;
+  border: none;
+  background: none;
+  text-align: center;
+  outline: none;
+}
+
+.character .avatar {
+  width: 7em;
+  border: 5px solid white;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.character .phobia {
+  display: inline-block;
+  margin-left: 10px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  position: relative;
+  bottom: -8px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.rooms {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.rooms .room {
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.animated {
+  position: relative;
+/*  right: 200px;
+  opacity: 0;
+  transition: .5s all ease-out;
+  -webkit-transform: rotate(30deg);*/
+}
+
+.card {
+  font-family: 'Special Elite';
+  color: #444;
+  line-height: 1.5;
+  background: url('../media/linedpaper.png');
+  padding: 20px;
+  
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  -moz-border-radius: 100px / 10px;
+  border-radius: 100px / 10px;
+}
+
+.card::after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+  -moz-transform: skew(8deg) rotate(3deg);
+  -ms-transform: skew(8deg) rotate(3deg);
+  -o-transform: skew(8deg) rotate(3deg);
+  transform: skew(8deg) rotate(3deg);
+}
+
+.redacted {
+  color: #333;
+  background: #333;
+}
+
+.empty {
+  color: white;
+  border-bottom: 2px solid #333;
+}
+
+.warning {
+  color: red;
+}

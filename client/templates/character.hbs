@@ -1,0 +1,25 @@
+  <section class="card character {{#if name}}small{{/if}}">
+    <h2>
+      {{#if name}}
+      <form>
+        <input type="text" class="charname" value="{{name}}" disable/>
+      </form>
+      {{else}}
+      <form onsubmit="var input = this.querySelector('.charname'); game.setName(input.value); input.setAttribute('disabled', true); return false;">
+        <input type="text" placeholder="Nom?" class="charname"/>
+      </form>
+      {{/if}}
+    </h2>
+    <img class="avatar" src="media/{{img}}"/>
+    <h3>{{genre}}</h3>
+    {{#if attributes}}
+    <ul>
+      {{#each attributes}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+    {{/if}}
+    {{#if phobia}}
+    <p class='warning' title='{{phobia.meaning}}'>{{phobia.name}}<img class="phobia" src="media/{{phobia.img}}"></p>
+    {{/if}}
+  </section>
